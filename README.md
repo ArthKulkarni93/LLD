@@ -29,7 +29,7 @@ The goal is to build clean, interview-ready implementations and track progress a
 
 | Status | Problem | Link |
 |--------|---------|------|
-| ❌ | Design Tic-Tac-Toe | https://leetcode.com/problems/design-tic-tac-toe/ |
+| ✅ | Design Tic-Tac-Toe | https://leetcode.com/problems/design-tic-tac-toe/ |
 | ❌ | Design Snake Game | https://leetcode.com/problems/design-snake-game/ |
 | ❌ | Snakes and Ladders (Simulation) | https://leetcode.com/problems/snakes-and-ladders/ |
 | ❌ | Game of Life | https://leetcode.com/problems/game-of-life/ |
