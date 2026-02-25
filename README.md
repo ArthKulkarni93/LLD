@@ -10,18 +10,19 @@ The goal is to build clean, interview-ready implementations and track progress a
 
 **Location:** `data-structures/`
 
-| Status | Data Structure | Description / Variants | Reference |
-|--------|----------------|------------------------|-----------|
-| ✅ | Vector | Dynamic array implementation | https://en.cppreference.com/w/cpp/container/vector |
-| ❌ | String | Custom string class | https://en.cppreference.com/w/cpp/string/basic_string |
-| ❌ | Unordered Map | Hash map implementation | https://en.cppreference.com/w/cpp/container/unordered_map |
-| ❌ | Queue (2 stacks) | Queue using two stacks | https://www.geeksforgeeks.org/queue-using-stacks/ |
-| ❌ | Queue (1 stack) | Queue using one stack (recursive) | https://www.geeksforgeeks.org/queue-using-stack/ |
-| ❌ | Deque | Double-ended queue | https://en.cppreference.com/w/cpp/container/deque |
-| ❌ | Heap / Priority Queue | Min/Max heap | https://en.cppreference.com/w/cpp/container/priority_queue |
-| ❌ | LRU Cache | Least Recently Used cache | https://leetcode.com/problems/lru-cache/ |
-| ❌ | LFU Cache | Least Frequently Used cache | https://leetcode.com/problems/lfu-cache/ |
-| ❌ | MRU Cache | Most Recently Used cache | https://www.geeksforgeeks.org/mru-cache-implementation/ |
+| Status | Data Structure        | Description / Variants            | Reference                                                                                                                                                                |
+| ------ | --------------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ✅      | Vector                | Dynamic array implementation      | [https://en.cppreference.com/w/cpp/container/vector](https://en.cppreference.com/w/cpp/container/vector)                                                                 |
+| ✅      | Stack (using queue)   | Implement stack using queues      | [https://leetcode.com/problems/implement-stack-using-queues/submissions/1930250163/](https://leetcode.com/problems/implement-stack-using-queues/submissions/1930250163/) |
+| ❌      | String                | Custom string class               | [https://en.cppreference.com/w/cpp/string/basic_string](https://en.cppreference.com/w/cpp/string/basic_string)                                                           |
+| ❌      | Unordered Map         | Hash map implementation           | [https://en.cppreference.com/w/cpp/container/unordered_map](https://en.cppreference.com/w/cpp/container/unordered_map)                                                   |
+| ❌      | Queue (2 stacks)      | Queue using two stacks            | [https://www.geeksforgeeks.org/queue-using-stacks/](https://www.geeksforgeeks.org/queue-using-stacks/)                                                                   |
+| ❌      | Queue (1 stack)       | Queue using one stack (recursive) | [https://www.geeksforgeeks.org/queue-using-stack/](https://www.geeksforgeeks.org/queue-using-stack/)                                                                     |
+| ❌      | Deque                 | Double-ended queue                | [https://en.cppreference.com/w/cpp/container/deque](https://en.cppreference.com/w/cpp/container/deque)                                                                   |
+| ❌      | Heap / Priority Queue | Min/Max heap                      | [https://en.cppreference.com/w/cpp/container/priority_queue](https://en.cppreference.com/w/cpp/container/priority_queue)                                                 |
+| ❌      | LRU Cache             | Least Recently Used cache         | [https://leetcode.com/problems/lru-cache/](https://leetcode.com/problems/lru-cache/)                                                                                     |
+| ❌      | LFU Cache             | Least Frequently Used cache       | [https://leetcode.com/problems/lfu-cache/](https://leetcode.com/problems/lfu-cache/)                                                                                     |
+| ❌      | MRU Cache             | Most Recently Used cache          | [https://www.geeksforgeeks.org/mru-cache-implementation/](https://www.geeksforgeeks.org/mru-cache-implementation/)                                                       |
 
 ---
 
