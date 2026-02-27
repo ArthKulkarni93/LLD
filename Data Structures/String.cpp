@@ -79,50 +79,56 @@ public:
         delete[] ptr;
     }
 
-    int get_size() const
-    {
-        return size;
-    }
-
-    void push_back(const char &c)
-    {
-        if (size == cap)
-        {
-            int new_cap = (cap == 0) ? 1 : cap * 2;
-            char *new_ptr = new char[new_cap + 1];
-
-            for (int i = 0; i < size; i++)
-                new_ptr[i] = ptr[i];
-
-            delete[] ptr;
-            ptr = new_ptr;
-            cap = new_cap;
-        }
-
-        ptr[size] = c;
-        size++;
-        ptr[size] = '\0';
-    }
-
-    void pop_back()
-    {
-        assert(size > 0);
-        size--;
-        ptr[size] = '\0';
-    }
-
-    char &operator[](int i)
-    {
-        assert(i >= 0 && i < size);
-        return ptr[i];
-    }
-
-    const char &operator[](int i) const
-    {
-        assert(i >= 0 && i < size);
-        return ptr[i];
-    }
+    int get_size() const;
+    void push_back(const char &c);
+    void pop_back();
+    char &operator[](int i);
+    const char &operator[](int i) const;
 };
+
+int String:: get_size() const
+{
+    return size;
+}
+
+void String:: push_back(const char &c)
+{
+    if (size == cap)
+    {
+        int new_cap = (cap == 0) ? 1 : cap * 2;
+        char *new_ptr = new char[new_cap + 1];
+
+        for (int i = 0; i < size; i++)
+            new_ptr[i] = ptr[i];
+
+        delete[] ptr;
+        ptr = new_ptr;
+        cap = new_cap;
+    }
+
+    ptr[size] = c;
+    size++;
+    ptr[size] = '\0';
+}
+
+void String:: pop_back()
+{
+    assert(size > 0);
+    size--;
+    ptr[size] = '\0';
+}
+
+char& String:: operator[](int i)
+{
+    assert(i >= 0 && i < size);
+    return ptr[i];
+}
+
+const char& String::operator[](int i) const
+{
+    assert(i >= 0 && i < size);
+    return ptr[i];
+}
 
 int main()
 {
@@ -135,6 +141,4 @@ int main()
 
     String c = b;
     cout << c[2] << endl;
-
-    return 0;
 }
